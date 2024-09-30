@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobileview.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">7ckngHumble</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#exp&certs">Exp & Certs</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <img
+              id="modeToggle"
+              class="icon color-icon"
+              src="theme_light.png"
+              src-light="theme_light.png"
+              src-dark="theme_dark.png"
+              alt="Color them icon"/>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">7ckngHumble</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Exp & Certs</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li>
+            <img
+              id="modeToggle2"
+              class="icon color-icon"
+              src="theme_light.png"
+              src-light="theme_light.png"
+              src-dark="theme_dark.png"
+              alt="Color them icon"/>
+          </li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="profile 31.png" alt="Melvin Espegadera profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Melvin Espegadera</h1>
+        <p class="section__text__p2">Good Student</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('Resume-Application-Letter-Benotskie-31.pdf')">
+            Resume
+          </button>
+          <button 
+            class="btn btn-color-1" 
+            onclick="window.open('Resume-Application-Letter-Benotskie-31.pdf')">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="twitter-light.png"
+            src-light="twitter-light.png"
+            src-dark="twitter-dark.png"
+            alt="My twitter profile"
+            class="icon twitter"
+            onclick="location.href='https: //www.twitter.com/'"/>
+          <img
+            src="linkedin_light.png"
+            src-light="linkedin_light.png"
+            src-dark="linkedin_dark.png"
+            alt="My LinkedIn profile"
+            class="icon linkedin-icon"
+            onclick="location.href='https: //linkedin.com/'"/>
+          <img
+            src="github_light.png"
+            src-light="github_light.png"
+            src-dark="github_dark.png"
+            alt="My github profile"
+            class="icon github-icon"
+            onclick="location.href='https: //github.com/'"/>
+          <img
+            src="epbi-light.png"
+            src-light="epbi-light.png"
+            src-dark="epbi-dark.png"
+            alt="My facebook profile"
+            class="icon facebook"
+            onclick="location.href='https: //www.facebook.com/'"/>
+        </div>
+      </div>
+    </section>
+    
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="ESPEGADERA, MELVIN M IMG_0305.jpg"
+            alt="Profile picture"
+            class="about-pic"/>
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="location_light.png"
+                src-light="location_light.png"
+                src-dark="location-dark.png"
+                alt="Experience icon"
+                class="icon"/>
+              <h3>Address</h3>
+              <p>Poblacion, Bonifacio, 7215 <br />Misamis Occidental, Philippines</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="education_light.png"
+                src-light="education_light.png"
+                src-dark="education_dark.png"
+                alt="Education icon"
+                class="icon"/>
+              <h3>Education</h3>
+              <p>BS Information Technology<br />University of Northwestern Mindanao</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              As an aspiring and dedicated student, I am eager to improve and leverage my academic achievement, skills, and passion to make a meaningful impact and contribute to the success of your company. With a strong work ethic, a positive attitude, and a willingness to learn, I am confident in my ability to excel in any task or challenge that comes my way.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="exp&certs">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experiences & Certifications</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Fields of Experience</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="checkmark_light.png"
+                  src-light="checkmark_light.png"
+                  src-dark="checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"/>
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark_light.png"
+                  src-light="checkmark_light.png"
+                  src-dark="checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"/>
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark_light.png"
+                  src-light="checkmark_light.png"
+                  src-dark="checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"/>
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basics</p>
+                </div>
+              </article>
+              <article>
+                <img
+                src="checkmark_light.png"
+                src-light="checkmark_light.png"
+                src-dark="checkmark_dark.png"
+                alt="Experience icon"
+                class="icon"/>
+              <div>
+                <h3>Animation</h3>
+                <p>Basics</p>
+              </div>
+            </article>
+            <article>
+                <img
+                  src="checkmark_light.png"
+                  src-light="checkmark_light.png"
+                  src-dark="checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"/>
+                <div>
+                  <h3>Community Extensions</h3>
+                  <p>Flood Relief</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark_light.png"
+                  src-light="checkmark_light.png"
+                  src-dark="checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"/>
+                <div>
+                  <h3>Debate Adjudicator</h3>
+                  <p>Parliamentary</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark_light.png"
+                  src-light="checkmark_light.png"
+                  src-dark="checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"/>
+                <div>
+                  <h3>Student Comelec</h3>
+                  <p>NMSCST LHS - SFO</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark_light.png"
+                  src-light="checkmark_light.png"
+                  src-dark="checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"/>
+                <div>
+                  <h3>Knights of the Altar</h3>
+                  <p>SVFP - Bonifacio</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark_light.png"
+                  src-light="checkmark_light.png"
+                  src-dark="checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"/>
+                <div>
+                  <h3>Sports & Esports Tournament</h3>
+                  <p>Local</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Certifications & Awards</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="checkmark_light.png"
+                  src-light="checkmark_light.png"
+                  src-dark="checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"/>
+                <div>
+                  <h3>Certificate of Recognition</h3>
+                  <p>With High Honors, NMSCST LHS</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark_light.png"
+                  src-light="checkmark_light.png"
+                  src-dark="checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"/>
+                <div>
+                  <h3>Certificate of Recognition</h3>
+                  <p>Deans Lister, NMSCST CICT</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark_light.png"
+                  src-light="checkmark_light.png"
+                  src-dark="checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"/>
+                <div>
+                  <h3>Certificate of Participation</h3>
+                  <p>NMSCST Debate Workshop</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark_light.png"
+                  src-light="checkmark_light.png"
+                  src-dark="checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"/>
+                <div>
+                  <h3>Course Certificate</h3>
+                  <p>HTML & Web Development Fundamentals, Sololearn Inc.</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark_light.png"
+                  src-light="checkmark_light.png"
+                  src-dark="checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"/>
+                <div>
+                  <h3>Certificate of Recognition</h3>
+                  <p>Linggo ng Kabataan, ML Tournament Champion</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark_light.png"
+                  src-light="checkmark_light.png"
+                  src-dark="checkmark_dark.png"
+                  alt="Experience icon"
+                  class="icon"/>
+                <div>
+                  <h3>Certificate of Participation</h3>
+                  <p>NMSCST Computer Literacy Workshop</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          
+          <!-- Project One -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project one.jpg"
+                alt="Project One"
+                class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Demon Slayer: Kimetsu no Melvin</h2>
+            <div class="btn-container">
+              <a href="https://7cknghumble.github.io/Demon-Slayer-Kimetsu-no-Melvin/" target="_blank">
+                <button class="btn btn-color-2 project-btn">Visit Project</button>
+              </a>
+              <a href="https://github.com/" target="_blank">
+                <button class="btn btn-color-2 project-btn">Github</button>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Project Two -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project two.png"
+                alt="Project Two"
+                class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Simple Styled Calculator</h2>
+            <div class="btn-container">
+              <a href="https://7cknghumble.github.io/CalculatorNiBenot/" target="_blank">
+                <button class="btn btn-color-2 project-btn">Visit Project</button>
+              </a>
+              <a href="https://github.com/" target="_blank">
+                <button class="btn btn-color-2 project-btn">Github</button>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Project Three -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project three.png"
+                alt="Project Three"
+                class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Simple Tic Tac Toe Game</h2>
+            <div class="btn-container">
+              <a href="https://7cknghumble.github.io/TicTacToeNiBenot/" target="_blank">
+                <button class="btn btn-color-2 project-btn">Visit Project</button>
+              </a>
+              <a href="https://github.com/" target="_blank">
+                <button class="btn btn-color-2 project-btn">Github</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="email_light.png"
+            src-light="email_light.png"
+            src-dark="email_dark.png"
+            alt="My Email profile"
+            class="icon email-icon"
+            onclick="location.href='https: //gmail.com/'"/>
+          <p><a href="https://www.gmail.com">melvin.espegadera@nmsc.edu.ph</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="github_light.png"
+            src-light="github_light.png"
+            src-dark="github_dark.png"
+            alt="My Github profile"
+            class="icon github-icon"
+            onclick="location.href='https: //github.com/'"/>
+          <p><a href="https://www.github.com">7ckngHumble</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="phone-light.png"
+            src-light="phone-light.png"
+            src-dark="phone-dark.png"
+            alt="My Phone profile"
+            class="icon phone-icon"
+            onclick="location.href='https: //facebook.com/'"/>
+          <p><a href="https://www.facebook.com">09052169299</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="epbi-light.png"
+            src-light="epbi-light.png"
+            src-dark="epbi-dark.png"
+            alt="My facebook profile"
+            class="icon facebook-icon"
+            onclick="location.href='https: //www.facebook.com/'"/>
+          <p><a href="https://www.facebook.com">Melvin Espegadera</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#exp&certs">Exp & Certs</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Melvin Espegadera. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
