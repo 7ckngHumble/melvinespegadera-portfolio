@@ -1,8 +1,6 @@
-/* GENERAL */
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-/* Default Light Mode */
+/* Light Mode */
 :root {
   --primary-color: white;
   --primary-color-2: rgb(250, 250, 250);
@@ -385,10 +383,10 @@ section {
 
 .article-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Automatically fit items and maintain a minimum width */
-  gap: 1.5rem; /* Adjusted gap for better spacing */
-  justify-items: center; /* Center articles horizontally */
-  align-items: start; /* Align articles vertically at the start */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+  gap: 1.5rem; 
+  justify-items: center; 
+  align-items: start; 
 }
 
 article {
@@ -400,7 +398,7 @@ article {
 
 article .icon {
   cursor: default;
-  width: 30px; /* Ensure the icons don't overflow */
+  width: 30px;
 }
 
 
