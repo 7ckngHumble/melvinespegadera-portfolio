@@ -56,7 +56,7 @@ function toggleMenu() {
   window.addEventListener("load", () => {
     navigator.serviceWorker
       .register("/service-worker.js")
-      .then(reg => console.log("Service Worker Registered", reg))
-      .catch(err => console.log("Service Worker Registration Failed", err));
+      .then((reg) => console.log("Service Worker registered", reg))
+      .catch((err) => console.log("SW registration failed", err));
   });
 }
